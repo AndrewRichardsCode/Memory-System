@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{f04c9286-e219-4fb7-b306-f9717e9aba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Do NOT modify">
+      <UniqueIdentifier>{e92ca29b-4937-4528-bd5c-8e9a35ac565c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MODIFY and ADD files here">
+      <UniqueIdentifier>{20856119-44cc-42a4-b268-b2dac0a09714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Test">
+      <UniqueIdentifier>{75066020-d788-4b2b-bc41-ace12119e0d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClCompile>
+    <ClCompile Include="Dog.cpp">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap.cpp">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClCompile>
+    <ClCompile Include="Mem.cpp">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\alignment_tests.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\fixed_overflow_tests.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\fixed_stress_tests.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\fixed_tracking_tests.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\heap_tests.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\memory_tests.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\stress_alignment_tests.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\stress_heap_tests.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\stress_tracking_tests.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\tracking_global_tests.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Test\tracking_heap_tests.cpp">
+      <Filter>_Test</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalNew.cpp">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Do NOT modify</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSAP.cpp">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClCompile>
+    <ClCompile Include="MemSAP.cpp">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClCompile>
+    <ClCompile Include="DLink.cpp">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+    <None Include="ClassDiagram.cd">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClInclude>
+    <ClInclude Include="Mem.h">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClInclude>
+    <ClInclude Include="MemEngine.h">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Test\_UnitTestConfiguration.h">
+      <Filter>_Test</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalNew.h">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapSAP.h">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClInclude>
+    <ClInclude Include="MemSAP.h">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClInclude>
+    <ClInclude Include="DLink.h">
+      <Filter>Source Files\MODIFY and ADD files here</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

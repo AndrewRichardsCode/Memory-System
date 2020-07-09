@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azul::Mem">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <Members>
+      <Field Name="MAJOR_VERSION" Hidden="true" />
+      <Field Name="mInitialized" Hidden="true" />
+      <Field Name="MINOR_VERSION" Hidden="true" />
+      <Field Name="pad" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Azul::Mem::Align" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mem.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Azul::Mem::Code" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mem.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="Azul::Mem::Info" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mem.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAAABASCAAAAAAAAAAAAgABAABAAEACAAAEIAAAIoA=</HashCode>
+      <FileName>Mem.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+      <Field Name="pGlobalHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::Block">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <Members>
+      <Field Name="mAllocIndex" Hidden="true" />
+      <Field Name="mAllocSize" Hidden="true" />
+      <Field Name="mFileName" Hidden="true" />
+      <Field Name="mLineNum" Hidden="true" />
+      <Field Name="NameLength" Hidden="true" />
+      <Field Name="NameNumChar" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>MAIAAAAAAAAAACAAAEIAAAAAwiIAAAgAEEAAABAAQQE=</HashCode>
+      <FileName>Block.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul::Heap">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Azul::Heap::Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Heap.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="Azul::Heap::Info" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Heap.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAAAIAAIIAIAAgAAAIEABAAAAABAEgAgAAiIACEAAA=</HashCode>
+      <FileName>Heap.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mWinHeapHandle" />
+      <Field Name="pMem" />
+      <Field Name="pBlkHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Typedef Name="HANDLE" Collapsed="true">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
